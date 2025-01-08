@@ -1,0 +1,39 @@
+{
+	"schemaVersion": 1,
+	"id": "bricksreimagined",
+	"version": "${version}",
+	"name": "Bricks Reimagined",
+	"description": "A mod that adds nearly 5,000 brick variants!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/bricksreimagined/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.lightamethyst222.bricksreimagined.BricksReimagined"
+		],
+		"fabric-datagen": [
+			"net.lightamethyst222.bricksreimagined.BricksReimaginedDataGenerator"
+		],
+		"client": [
+			"net.lightamethyst222.bricksreimagined.BricksReimaginedClient"
+		]
+	},
+	"mixins": [
+		"bricksreimagined.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
