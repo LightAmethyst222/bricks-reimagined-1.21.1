@@ -1,4 +1,8 @@
 {
+  "itemgroup.bricksreimagined.bricks_reimagined_item_group": "Bricks Reimagined Misc.",
+  "itemgroup.bricksreimagined.bricks_reimagined_1x1_even_group": "1x1 Even Bricks",
+  "itemgroup.bricksreimagined.bricks_reimagined_1x1_offset_group": "1x1 Offset Bricks",
+
   "item.bricksreimagined.grout_ball": "Grout Ball",
   "item.bricksreimagined.netherite_nugget": "Netherite Nugget",
   "item.bricksreimagined.gilding_andesite_template": "Andesite Gilding Template",
@@ -7,5 +11,23 @@
   "item.bricksreimagined.gilding_diamond_template": "Diamond Gilding Template",
   "item.bricksreimagined.gilding_gold_template": "Gold Gilding Template",
   "item.bricksreimagined.gilding_iron_template": "Iron Gilding Template",
-  "item.bricksreimagined.gilding_netherite_template": "Netherite Gilding Template"
+  "item.bricksreimagined.gilding_netherite_template": "Netherite Gilding Template",
+  "item.bricksreimagined.bricks_1x1_even_template": "1x1 Even Bricks Template",
+  "item.bricksreimagined.bricks_1x1_offset_template": "1x1 Offset Bricks Template",
+  "item.bricksreimagined.bricks_1x2_even_template": "1x2 Even Bricks Template",
+  "item.bricksreimagined.bricks_1x2_offset_template": "1x2 Offset Bricks Template",
+  "item.bricksreimagined.bricks_1x4_even_template": "1x4 Even Bricks Template",
+  "item.bricksreimagined.bricks_1x4_offset_template": "1x4 Offset Bricks Template",
+  "item.bricksreimagined.bricks_2x2_even_template": "2x2 Even Bricks Template",
+  "item.bricksreimagined.bricks_2x2_offset_template": "2x2 Offset Bricks Template",
+  "item.bricksreimagined.bricks_2x4_even_template": "2x4 Even Bricks Template",
+  "item.bricksreimagined.bricks_2x4_offset_template": "2x4 Offset Bricks Template",
+  "item.bricksreimagined.bricks_4x4_even_template": "4x4 Even Bricks Template",
+  "item.bricksreimagined.bricks_4x4_offset_template": "4x4 Offset Bricks Template",
+  "item.bricksreimagined.bricks_chiseled_template": "Chiseled Bricks Template",
+
+  "block.bricksreimagined.grout_block": "Grout Block",
+
+  "block.bricksreimagined.uncolored_1x1_even_uncolored_bricks": "Uncolored Uncolored 1x1 Even Bricks",
+  "block.bricksreimagined.uncolored_1x1_offset_uncolored_bricks": "Uncolored Uncolored 1x1 Offset Bricks"
 }

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "bricksreimagined:item/bricks_1x1_offset_template"
+  }
+}

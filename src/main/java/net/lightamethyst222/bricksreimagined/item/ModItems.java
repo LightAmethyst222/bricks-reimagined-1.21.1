@@ -18,7 +18,20 @@ public class ModItems {
     public static final Item GILDING_DIAMOND_TEMPLATE = registerItem("gilding_diamond_template", new Item(new Item.Settings()));
     public static final Item GILDING_GOLD_TEMPLATE = registerItem("gilding_gold_template", new Item(new Item.Settings()));
     public static final Item GILDING_IRON_TEMPLATE = registerItem("gilding_iron_template", new Item(new Item.Settings()));
-    public static final Item GILDING_NETHERITE_TEMPLATE = registerItem("gilding_netherite_template", new Item(new Item.Settings()));
+    public static final Item GILDING_NETHERITE_TEMPLATE = registerItem("gilding_netherite_template", new Item(new Item.Settings().fireproof()));
+    public static final Item BRICKS_1X1_EVEN_TEMPLATE = registerItem("bricks_1x1_even_template", new Item(new Item.Settings()));
+    public static final Item BRICKS_1X1_OFFSET_TEMPLATE = registerItem("bricks_1x1_offset_template", new Item(new Item.Settings()));
+    public static final Item BRICKS_1X2_EVEN_TEMPLATE = registerItem("bricks_1x2_even_template", new Item(new Item.Settings()));
+    public static final Item BRICKS_1X2_OFFSET_TEMPLATE = registerItem("bricks_1x2_offset_template", new Item(new Item.Settings()));
+    public static final Item BRICKS_1X4_EVEN_TEMPLATE = registerItem("bricks_1x4_even_template", new Item(new Item.Settings()));
+    public static final Item BRICKS_1X4_OFFSET_TEMPLATE = registerItem("bricks_1x4_offset_template", new Item(new Item.Settings()));
+    public static final Item BRICKS_2X2_EVEN_TEMPLATE = registerItem("bricks_2x2_even_template", new Item(new Item.Settings()));
+    public static final Item BRICKS_2X2_OFFSET_TEMPLATE = registerItem("bricks_2x2_offset_template", new Item(new Item.Settings()));
+    public static final Item BRICKS_2X4_EVEN_TEMPLATE = registerItem("bricks_2x4_even_template", new Item(new Item.Settings()));
+    public static final Item BRICKS_2X4_OFFSET_TEMPLATE = registerItem("bricks_2x4_offset_template", new Item(new Item.Settings()));
+    public static final Item BRICKS_4X4_EVEN_TEMPLATE = registerItem("bricks_4x4_even_template", new Item(new Item.Settings()));
+    public static final Item BRICKS_4X4_OFFSET_TEMPLATE = registerItem("bricks_4x4_offset_template", new Item(new Item.Settings()));
+    public static final Item BRICKS_CHISELED_TEMPLATE = registerItem("bricks_chiseled_template", new Item(new Item.Settings()));
 
 
     private static Item registerItem(String name, Item item) {
@@ -29,16 +42,7 @@ public class ModItems {
         BricksReimagined.LOGGER.info("Registering Mod Items for " + BricksReimagined.MOD_ID);
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
-            //reorder once I move this to a custom group
-            entries.add(GROUT_BALL);
-            entries.add(NETHERITE_NUGGET);
-            entries.add(GILDING_ANDESITE_TEMPLATE);
-            entries.add(GILDING_BRASS_TEMPLATE);
-            entries.add(GILDING_COPPER_TEMPLATE);
-            entries.add(GILDING_DIAMOND_TEMPLATE);
-            entries.add(GILDING_GOLD_TEMPLATE);
-            entries.add(GILDING_IRON_TEMPLATE);
-            entries.add(GILDING_NETHERITE_TEMPLATE);
+
         });
     }
 }

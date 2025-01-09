@@ -1,0 +1,33 @@
+{
+  "parent": "minecraft:block/block",
+  "render_type": "cutout",
+  "textures": {
+    "particle": "minecraft:block/bricks",
+    "texture1": "bricksreimagined:block/1x1_even/grout/uncolored_1x1_even_grout",
+    "texture2": "bricksreimagined:block/1x1_even/brick/uncolored_1x1_even_bricks"
+  },
+  "elements": [
+    {   "from": [ 0, 0, 0 ],
+      "to": [ 16, 16, 16 ],
+      "faces": {
+        "down":  { "texture": "#texture1", "cullface": "down" },
+        "up":    { "texture": "#texture1", "cullface": "up" },
+        "north": { "texture": "#texture1", "cullface": "north" },
+        "south": { "texture": "#texture1", "cullface": "south" },
+        "west":  { "texture": "#texture1", "cullface": "west" },
+        "east":  { "texture": "#texture1", "cullface": "east" }
+      }
+    },
+    {   "from": [ 0, 0, 0 ],
+      "to": [ 16, 16, 16],
+      "faces": {
+        "down":  { "texture": "#texture2", "cullface": "down" },
+        "up":    { "texture": "#texture2", "cullface": "up" },
+        "north": { "texture": "#texture2", "cullface": "north" },
+        "south": { "texture": "#texture2", "cullface": "south" },
+        "west":  { "texture": "#texture2", "cullface": "west" },
+        "east":  { "texture": "#texture2", "cullface": "east" }
+      }
+    }
+  ]
+}
